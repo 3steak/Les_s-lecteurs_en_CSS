@@ -9,6 +9,30 @@ body {
     font-family: Coming Soon Regular;
 }
 
+/* met le premier enfant de ol en bleu */
 ol>li:first-of-type {
     color: blue;
+}
+
+/* selectionne le premier li de son type (parent) 
+    et li pour selectionner les autres li enfants  */
+li:first-of-type li {
+    color: red;
+}
+
+/* Selectionne le premier li de son type (parent)
+et le dernier des li enfants */
+li:first-of-type li:last-of-type {
+    color: rgb(26, 213, 26);
+}
+
+/* selectionne le dernier parent de type li */
+ol>li:last-of-type {
+    color: grey;
+}
+
+
+
+span>span {
+    color: pink;
 }
