@@ -2,7 +2,7 @@
     font-family: 'Coming Soon Regular';
     font-style: normal;
     font-weight: normal;
-    src: local('Coming Soon Regular'), url('font/ComingSoon-Regular.woff') format('woff');
+    src: local('Coming Soon Regular'), url('/font/ComingSoon-Regular.woff') format('woff');
 }
 
 body {
@@ -11,12 +11,4 @@ body {
 
 ol>li:first-of-type {
     color: blue;
-}
-
-li:nth-child(2) {
-    color: red;
-}
-
-li:nth-child(1) {
-    color: red;
 }
